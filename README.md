@@ -1,6 +1,3 @@
-# EstudosReact
-Repositorio para armazenar as produções realizadas nos meus estudos de react
-
 <div align="center">
   
 # Estudos React

@@ -1,13 +1,12 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Footer from './components/layout/Footer'
-import Navbar from './components/layout/Navbar'
-import Container from './components/layout/Container'
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from './components/pages/Home'
-import Projects from './components/pages/Projects'
-import NewProject from './components/pages/NewProject'
-import Company from './components/pages/Company'
+import NewWork from './components/pages/NewWork'
 import Contact from './components/pages/Contact'
-import Project from './components/pages/Project'
+import Tarefas from './components/pages/Tarefas'
+
+import Container from './components/layout/Container'
+import Navbar from './components/layout/Navbar'
+import Footer from './components/layout/Footer'
 
 function App() {
   return (
@@ -15,17 +14,14 @@ function App() {
       <Navbar />
       <Container customClass="min-height">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="projects/*" element={<Projects />} />
-          <Route path="company/*" element={<Company />} />
-          <Route path="contact/*" element={<Contact />} />
-          <Route path="newproject/*" element={<NewProject />} />
-          <Route path="/>project/:id/*" element={<Project />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="tarefas/*" element={<Tarefas />} />
+          <Route exact path="contact/*" element={<Contact />} />
+          <Route exact path="newwork/*" element={<NewWork />} />
         </Routes>
       </Container>
       <Footer />
-    </Router>
+    </Router> 
   )
 }
-
 export default App

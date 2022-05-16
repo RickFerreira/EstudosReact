@@ -4,10 +4,13 @@
     padding: 3em;
   }
   
-  .newwork_container h1 {
-    margin-bottom: 0.5em;
-  }
-  
-  .newwork_container p {
-    color: #7b7b7b;
-  }
+.newwork_container h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.newwork_container h1 span {
+  color: #33bbff;
+  padding: 0.2em;
+  background-color: #222;
+}

@@ -1,0 +1,16 @@
+.tarefas_container {
+  padding: 2em;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.atividades {
+  padding: 1em;
+  font-size: 30px;
+  color: #33bbff;
+  background-color: black;
+}

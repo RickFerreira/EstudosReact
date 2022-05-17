@@ -1,0 +1,35 @@
+{
+  "tarefas": [
+
+  ],
+  "disciplinas": [
+    {
+      "id": 1,
+      "name": "Calculo II"
+    },
+    {
+      "id": 2,
+      "name": "Laboratorio de Programação Orientada a Objetos"
+    },
+    {
+      "id": 3,
+      "name": "Organização e Arquitetura de Software"
+    },
+    {
+      "id": 4,
+      "name": "Programação Orientada a Objetos"
+    },
+    {
+      "id": 5,
+      "name": "Relações Humanas no Trabalho"
+    },
+    {
+      "id": 6,
+      "name": "Teoria dos grafos"
+    },
+    {
+      "id": 7,
+      "name": "Outras"
+    }
+  ]
+}

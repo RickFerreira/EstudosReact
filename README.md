@@ -15,7 +15,8 @@
 </a>
 </p>
 
-  
+<br> 
+
 ### 👨🏻‍💻 Technologies
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="imagem" width="45"> &nbsp;
@@ -25,9 +26,10 @@
   
   
   
+<br>
 
 ### 💻 Results
-<br>
+
 
 <h4>Tela inicial</h4>
 <img src="https://cdn.discordapp.com/attachments/459871999943114762/976207173652709467/home.png" alt="imagem"> &nbsp;

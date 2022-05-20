@@ -1,6 +1,29 @@
 {
   "tarefas": [
-
+    {
+      "name": "roteiro 2",
+      "descricao": "busca em largura e em profundidade",
+      "disciplina": {
+        "id": "6",
+        "name": "Teoria dos grafos"
+      },
+      "datetime": "2022-05-17T21:06",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Prova de calculo",
+      "descricao": "Integrais",
+      "disciplina": {
+        "id": "1",
+        "name": "Calculo II"
+      },
+      "datetime": "2022-05-26T20:06",
+      "cost": 0,
+      "services": [],
+      "id": 2
+    }
   ],
   "disciplinas": [
     {

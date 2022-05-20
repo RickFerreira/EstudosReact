@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom'
 import styles from './TarefaCard.module.css'
 
-import { BsPencil, BsFillTrashFill } from 'react-icons/bs'
+import { BsFillTrashFill } from 'react-icons/bs'
 
+/*<Link to={'/tarefas/' + id}>
+<BsPencil /> Atualizar
+</Link>*/
 function TarefaCard({ id, name, descricao, disciplina, datetime, handleRemove }) {
   const remove = (e) => {
     e.preventDefault()
@@ -22,9 +24,6 @@ function TarefaCard({ id, name, descricao, disciplina, datetime, handleRemove })
         <span>Entrega: </span>{datetime}
       </p>
       <div className={styles.tarefa_card_actions}>
-        <Link to={'/tarefas/' + id}>
-          <BsPencil /> Atualizar
-        </Link>
         <button onClick={remove}>
           <BsFillTrashFill />
           Concluir

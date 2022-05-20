@@ -2,7 +2,7 @@
   
 # Estudos React
   
-<h4>Repositorio para armazenar as produções realizadas nos meus estudos de react</h4>
+<h4>Repositorio para armazenar as produções realizadas nos meus estudos de react. Criei um site para organizar atividades da faculdade</h4>
   
 <p ><img  src="https://wallpapercave.com/wp/wp4923981.jpg" width="60%" alt="imagem" >
   
